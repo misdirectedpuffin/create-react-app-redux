@@ -5,8 +5,7 @@ import { ConnectedRouter } from 'react-router-redux';
 import store, { history } from './store';
 import App from './containers/app';
 
-import 'sanitize.css/sanitize.css';
-import './index.css';
+import './index.scss';
 
 const target = document.querySelector('#root');
 
